@@ -9,5 +9,6 @@ public class TestRunner {
 		//And tags
 		return Karate.run("classpath:features")
 				.tags("@Smoke");
+		
 	}
 }
