@@ -26,5 +26,9 @@ public class GenerateData {
 		System.out.println(number);
 		System.out.println(number.length());
 	}
-
+	public static String getUserName() {
+		String prefix = "auto_name";
+		int random = (int)(Math.random()*10000);
+		return prefix.concat(String.valueOf(random));
+	}
 }
